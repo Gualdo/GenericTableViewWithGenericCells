@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = UINavigationController()
         window?.makeKeyAndVisible()
-        navigator.show(segue: .home(source: Source.mainMenu), sender: window?.rootViewController ?? UIViewController())
+        navigator.show(segue: .home(source: [Source.mainMenu]), sender: window?.rootViewController ?? UIViewController())
         return true
     }
 

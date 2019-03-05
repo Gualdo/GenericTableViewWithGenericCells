@@ -12,7 +12,8 @@
 		451E4542222E6408002B94AA /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E4541222E6408002B94AA /* CustomViewController.swift */; };
 		451E4544222E6586002B94AA /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E4543222E6586002B94AA /* Source.swift */; };
 		451E4547222E6BD4002B94AA /* UIStoryboard+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E4546222E6BD4002B94AA /* UIStoryboard+Factory.swift */; };
-		451E4549222E948D002B94AA /* MoviesAndGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E4548222E948D002B94AA /* MoviesAndGames.swift */; };
+		451E4549222E948D002B94AA /* MoviesAndGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E4548222E948D002B94AA /* MoviesAndGamesModel.swift */; };
+		451E454B222ED59B002B94AA /* SectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E454A222ED59B002B94AA /* SectionViewModel.swift */; };
 		45C4246B222D705E00D877FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C4246A222D705E00D877FC /* AppDelegate.swift */; };
 		45C4246D222D705E00D877FC /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C4246C222D705E00D877FC /* GenericTableViewController.swift */; };
 		45C42470222D705E00D877FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C4246E222D705E00D877FC /* Main.storyboard */; };
@@ -55,7 +56,8 @@
 		451E4541222E6408002B94AA /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		451E4543222E6586002B94AA /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		451E4546222E6BD4002B94AA /* UIStoryboard+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Factory.swift"; sourceTree = "<group>"; };
-		451E4548222E948D002B94AA /* MoviesAndGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAndGames.swift; sourceTree = "<group>"; };
+		451E4548222E948D002B94AA /* MoviesAndGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAndGamesModel.swift; sourceTree = "<group>"; };
+		451E454A222ED59B002B94AA /* SectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModel.swift; sourceTree = "<group>"; };
 		45C42467222D705E00D877FC /* GenericTableViewWithGenericCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericTableViewWithGenericCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C4246A222D705E00D877FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C4246C222D705E00D877FC /* GenericTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
@@ -216,7 +218,8 @@
 				45C424B3222D8F6A00D877FC /* MainSelectionModel.swift */,
 				451E453C222E5D9C002B94AA /* MovieModel.swift */,
 				451E4543222E6586002B94AA /* Source.swift */,
-				451E4548222E948D002B94AA /* MoviesAndGames.swift */,
+				451E4548222E948D002B94AA /* MoviesAndGamesModel.swift */,
+				451E454A222ED59B002B94AA /* SectionViewModel.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -381,8 +384,9 @@
 			files = (
 				45C4246D222D705E00D877FC /* GenericTableViewController.swift in Sources */,
 				45C424A7222D80A400D877FC /* MainSelectionTableViewCell.swift in Sources */,
+				451E454B222ED59B002B94AA /* SectionViewModel.swift in Sources */,
 				451E453D222E5D9C002B94AA /* MovieModel.swift in Sources */,
-				451E4549222E948D002B94AA /* MoviesAndGames.swift in Sources */,
+				451E4549222E948D002B94AA /* MoviesAndGamesModel.swift in Sources */,
 				451E4542222E6408002B94AA /* CustomViewController.swift in Sources */,
 				45C4246B222D705E00D877FC /* AppDelegate.swift in Sources */,
 				45C424A3222D807300D877FC /* MovieTableViewCell.swift in Sources */,

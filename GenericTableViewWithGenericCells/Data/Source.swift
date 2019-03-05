@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 final class Source {
     
@@ -14,7 +15,7 @@ final class Source {
         MainSelectionModel(title: "Games", image: "GameIcon"),
         MainSelectionModel(title: "Movies", image: "MovieIcon"),
         MainSelectionModel(title: "Movies and games", image: "YingYang")
-    ]
+        ]
     
     static let games = [
         GameModel(gameName: "The Division", gameReleaseDate: "08/03/2016", gameImage: "TheDivision1"),
@@ -27,7 +28,7 @@ final class Source {
     ]
     
     static let gamesAndMovies = [
-        MoviesAndGames(name: "The Avengers 1", releaseDate: "27/04/2012", image: "Avengers1", actors: ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Chris Evans"]),
-        MoviesAndGames(name: "The Division", releaseDate: "08/03/2016", image: "TheDivision1")
+        MoviesAndGamesModel(name: "The Avengers 1", releaseDate: "27/04/2012", image: "Avengers1", actors: ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Chris Evans"]),
+        MoviesAndGamesModel(name: "The Division", releaseDate: "08/03/2016", image: "TheDivision1")
     ]
 }

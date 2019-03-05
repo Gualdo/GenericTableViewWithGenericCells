@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct MoviesAndGames: DescriptiveProtocol {
+struct MoviesAndGamesModel: DescriptiveProtocol {
     var name: String
     var releaseDate: String
     var image: String
