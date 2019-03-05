@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="668" id="Sf4-Eh-Nnd" customClass="MovieTableViewCell" customModule="GenericTableViewWithGenericCells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="466" height="668"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Sf4-Eh-Nnd" id="8xg-US-dRG">
+                <rect key="frame" x="0.0" y="0.0" width="466" height="667.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8t-bB-AfK">
+                        <rect key="frame" x="205" y="31" width="56.5" height="26.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26.5" id="LI6-TF-llJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lom-N1-EyI">
+                        <rect key="frame" x="216.5" y="65.5" width="33.5" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="YeM-m3-dJ5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="Avengers1" translatesAutoresizingMaskIntoConstraints="NO" id="UIe-WH-qiX">
+                        <rect key="frame" x="20" y="94" width="426" height="511"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="1tw-or-7NQ">
+                        <rect key="frame" x="211" y="621" width="44.5" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actor 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J01-HP-Jbo">
+                                <rect key="frame" x="1" y="0.0" width="42.5" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="Wjs-OK-Ioz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actor 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnn-ke-7Qj">
+                                <rect key="frame" x="0.0" y="20" width="44.5" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="MNM-0k-5sX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="D8t-bB-AfK" firstAttribute="centerX" secondItem="8xg-US-dRG" secondAttribute="centerX" id="6iy-pY-0M3"/>
+                    <constraint firstItem="UIe-WH-qiX" firstAttribute="leading" secondItem="8xg-US-dRG" secondAttribute="leadingMargin" id="CEt-JV-P3a"/>
+                    <constraint firstItem="Lom-N1-EyI" firstAttribute="centerX" secondItem="8xg-US-dRG" secondAttribute="centerX" id="EpD-xx-SvN"/>
+                    <constraint firstItem="Lom-N1-EyI" firstAttribute="top" secondItem="D8t-bB-AfK" secondAttribute="bottom" constant="8" id="IjQ-xL-JNC"/>
+                    <constraint firstItem="1tw-or-7NQ" firstAttribute="centerX" secondItem="8xg-US-dRG" secondAttribute="centerX" id="RaP-gH-Hmg"/>
+                    <constraint firstItem="D8t-bB-AfK" firstAttribute="top" secondItem="8xg-US-dRG" secondAttribute="topMargin" id="Y3T-pR-BAE"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="1tw-or-7NQ" secondAttribute="bottom" id="mEO-Tu-i2l"/>
+                    <constraint firstItem="UIe-WH-qiX" firstAttribute="top" secondItem="Lom-N1-EyI" secondAttribute="bottom" constant="8" id="osT-67-xub"/>
+                    <constraint firstItem="1tw-or-7NQ" firstAttribute="top" secondItem="UIe-WH-qiX" secondAttribute="bottom" constant="16" id="vda-YV-4PO"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="UIe-WH-qiX" secondAttribute="trailing" id="zTg-ey-bJy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="movieArtistsStackView" destination="1tw-or-7NQ" id="2QA-oJ-iT1"/>
+                <outlet property="movieImageView" destination="UIe-WH-qiX" id="FdW-g8-jQK"/>
+                <outlet property="movieReleaseYear" destination="Lom-N1-EyI" id="eGz-FU-ZUH"/>
+                <outlet property="movieTitleLabel" destination="D8t-bB-AfK" id="d6a-9U-GRR"/>
+            </connections>
+            <point key="canvasLocation" x="142.40000000000001" y="186.20689655172416"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Avengers1" width="600" height="830"/>
+    </resources>
+</document>

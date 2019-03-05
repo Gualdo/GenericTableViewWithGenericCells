@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="96" id="CRS-Xr-twW" customClass="MainSelectionTableViewCell" customModule="GenericTableViewWithGenericCells" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="96"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CRS-Xr-twW" id="TZs-V1-ddS">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="95.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pmN-E7-e38">
+                        <rect key="frame" x="0.0" y="0.0" width="344" height="95.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YingYang" translatesAutoresizingMaskIntoConstraints="NO" id="cxK-NC-eiW">
+                                <rect key="frame" x="0.0" y="0.0" width="95.5" height="95.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cxK-NC-eiW" secondAttribute="height" multiplier="1:1" id="q72-hh-BHr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movies and games" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cof-gV-IAi">
+                                <rect key="frame" x="115.5" y="0.0" width="228.5" height="95.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pmN-E7-e38" firstAttribute="centerX" secondItem="TZs-V1-ddS" secondAttribute="centerX" id="3gc-dc-a85"/>
+                    <constraint firstAttribute="bottom" secondItem="pmN-E7-e38" secondAttribute="bottom" id="ZAy-kr-Owg"/>
+                    <constraint firstItem="pmN-E7-e38" firstAttribute="leading" secondItem="TZs-V1-ddS" secondAttribute="leading" id="cgj-Aa-ttg"/>
+                    <constraint firstAttribute="trailing" secondItem="pmN-E7-e38" secondAttribute="trailing" id="kK3-JX-gHf"/>
+                    <constraint firstItem="pmN-E7-e38" firstAttribute="top" secondItem="TZs-V1-ddS" secondAttribute="top" id="kee-Av-MRy"/>
+                    <constraint firstItem="pmN-E7-e38" firstAttribute="centerY" secondItem="TZs-V1-ddS" secondAttribute="centerY" id="m3o-cu-0fA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mainSelectionImageView" destination="cxK-NC-eiW" id="Wy7-Xy-4jj"/>
+                <outlet property="mainSelectionTitleLabel" destination="cof-gV-IAi" id="W7d-wl-gEx"/>
+            </connections>
+            <point key="canvasLocation" x="99.200000000000003" y="-173.61319340329837"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="YingYang" width="512" height="512"/>
+    </resources>
+</document>
